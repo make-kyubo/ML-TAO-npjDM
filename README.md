@@ -40,7 +40,7 @@ CAS (Clinical Activity Score) scored by three ophthalmologists
 Submodels (per-doc) and aggregating model to predict the redness of the eyelids  
 
 ## Redness_of_conjunctiva.py
-Submodels (per-doc) to predict the redness of the conjunctiva
+Submodels (per-doc) to predict the redness of the conjunctiva  
 To build the submodels, the code loads two kinds of images (medial & lateral).  
 Additional codes will be needed to choose the majority of results.
 
