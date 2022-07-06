@@ -37,15 +37,20 @@ CAS (Clinical Activity Score) scored by three ophthalmologists
 - Existence of two types of orbital pain (spontaneous retrobulbar pain and pain on gaze)
 
 ## Redness_of_eyelids.py
-
+Submodels (per-doc) and aggregating model to predict the redness of the eyelids  
 
 ## Redness_of_conjunctiva.py
-
+Submodels (per-doc) to predict the redness of the conjunctiva
+To build the submodels, the code loads two kinds of images (medial & lateral).  
+Additional codes will be needed to choose the majority of results.
 
 ## Swelling_of_eyelids.py
-
+Submodels (per-doc) to predict the swelling of the eyelids  
+Additional codes will be needed to choose the majority of results.
 
 ## Inflammation_of_caruncle.py
-
+Submodels (per-doc) and aggregating model to predict the inflammation of the caruncle  
 
 ## Conjunctival_edema.py
+Submodels (per-doc) to predict the conjunctival edema  
+Additional codes will be needed to choose the majority of results.
